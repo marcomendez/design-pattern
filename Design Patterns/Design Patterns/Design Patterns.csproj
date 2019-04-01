@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3762B8F-9BF7-41FA-9025-3EB411D49753}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Design_Patterns</RootNamespace>
+    <AssemblyName>Design Patterns</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\Abstract\AbstractFactory.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\Factories\FactoryProducer.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\Concretes\Rectangle.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\Concretes\RoundedRectangle.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\Interface\IShape.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\Factories\RoundedShapeFactory.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\Concretes\RounderSquare.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\RunAbstactFactory.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\Factories\ShapeFactory.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\Concretes\Square.cs" />
+    <Compile Include="Creational Patterns\Builder Pattern\Persona.cs" />
+    <Compile Include="Creational Patterns\Builder Pattern\RunBuilder.cs" />
+    <Compile Include="Creational Patterns\Factory Method\Concrete\Car.cs" />
+    <Compile Include="Creational Patterns\Factory Method\FactoryVehicule.cs" />
+    <Compile Include="Creational Patterns\Factory Method\Interface\IVehicule.cs" />
+    <Compile Include="Creational Patterns\Factory Method\Concrete\MotoCiclete.cs" />
+    <Compile Include="Creational Patterns\Factory Method\Concrete\Truck.cs" />
+    <Compile Include="Creational Patterns\Factory Method\RunFactory.cs" />
+    <Compile Include="Creational Patterns\Prototype pattern\Circle.cs" />
+    <Compile Include="Creational Patterns\Prototype pattern\PrototypePatternRun.cs" />
+    <Compile Include="Creational Patterns\Prototype pattern\Rectangle.cs" />
+    <Compile Include="Creational Patterns\Prototype pattern\Shape.cs" />
+    <Compile Include="Creational Patterns\Prototype pattern\ShapeCache.cs" />
+    <Compile Include="Creational Patterns\Prototype pattern\Square.cs" />
+    <Compile Include="Creational Patterns\Singleton\Unico.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural Patterns\Adapter Pattern\AdvancedMediaPlayer.cs" />
+    <Compile Include="Structural Patterns\Adapter Pattern\AudioPlayer.cs" />
+    <Compile Include="Structural Patterns\Adapter Pattern\MediaAdapter.cs" />
+    <Compile Include="Structural Patterns\Adapter Pattern\MediaPlayer.cs" />
+    <Compile Include="Structural Patterns\Adapter Pattern\Mp4Player.cs" />
+    <Compile Include="Structural Patterns\Adapter Pattern\AdapterRun.cs" />
+    <Compile Include="Structural Patterns\Adapter Pattern\VlcPlayer.cs" />
+    <Compile Include="Structural Patterns\Brigde Pattern\BridgeRun.cs" />
+    <Compile Include="Structural Patterns\Brigde Pattern\Circle.cs" />
+    <Compile Include="Structural Patterns\Brigde Pattern\Shape.cs" />
+    <Compile Include="Structural Patterns\Brigde Pattern\DrawAPI.cs" />
+    <Compile Include="Structural Patterns\Brigde Pattern\GreenCircle.cs" />
+    <Compile Include="Structural Patterns\Brigde Pattern\RedCircle.cs" />
+    <Compile Include="Structural Patterns\Composite Pattern\CompositePatternRun.cs" />
+    <Compile Include="Structural Patterns\Composite Pattern\Employee.cs" />
+    <Compile Include="Structural Patterns\Decorator Pattern\BlueShapeDecorator.cs" />
+    <Compile Include="Structural Patterns\Decorator Pattern\Circle.cs" />
+    <Compile Include="Structural Patterns\Decorator Pattern\DecoratorRun.cs" />
+    <Compile Include="Structural Patterns\Decorator Pattern\RedShapeDecorator.cs" />
+    <Compile Include="Structural Patterns\Decorator Pattern\Shape.cs" />
+    <Compile Include="Structural Patterns\Decorator Pattern\Rectangle.cs" />
+    <Compile Include="Structural Patterns\Decorator Pattern\ShapeDecorator.cs" />
+    <Compile Include="Structural Patterns\Facade Pattern\Circle.cs" />
+    <Compile Include="Structural Patterns\Facade Pattern\FacadeRun.cs" />
+    <Compile Include="Structural Patterns\Facade Pattern\Rectangle.cs" />
+    <Compile Include="Structural Patterns\Facade Pattern\Shape.cs" />
+    <Compile Include="Structural Patterns\Facade Pattern\ShapeMaker.cs" />
+    <Compile Include="Structural Patterns\Facade Pattern\Square.cs" />
+    <Compile Include="Structural Patterns\Fyweight Pattern\Circle.cs" />
+    <Compile Include="Structural Patterns\Fyweight Pattern\FlyweightRun.cs" />
+    <Compile Include="Structural Patterns\Fyweight Pattern\Shape.cs" />
+    <Compile Include="Structural Patterns\Fyweight Pattern\ShapeFactory.cs" />
+    <Compile Include="Structural Patterns\Proxy Pattern\Image .cs" />
+    <Compile Include="Structural Patterns\Proxy Pattern\ProxyImage.cs" />
+    <Compile Include="Structural Patterns\Proxy Pattern\ProxyRun.cs" />
+    <Compile Include="Structural Patterns\Proxy Pattern\RealImage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
