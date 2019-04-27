@@ -8,7 +8,7 @@ namespace Design_Patterns.Structural_Patterns.Fyweight_Pattern
         public void run()
         {
             Console.WriteLine("************************** FlyweightRun pattern **********************************");
-            for (int i = 0; i < 20; ++i)
+            for (int i = 0; i < 5; ++i)
             {
                 Thread.Sleep(500);
                 Circle circle = (Circle)ShapeFactory.getCircle(colors[new Random().Next(0,4)]);

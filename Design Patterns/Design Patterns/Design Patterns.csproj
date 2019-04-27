@@ -43,6 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral Patterns\Chain of Responsability\AbstractLogger.cs" />
+    <Compile Include="Behavioral Patterns\Chain of Responsability\ChainPatternRun.cs" />
+    <Compile Include="Behavioral Patterns\Chain of Responsability\ConsoleLogger.cs" />
+    <Compile Include="Behavioral Patterns\Chain of Responsability\ErrorLogger.cs" />
+    <Compile Include="Behavioral Patterns\Chain of Responsability\FileLogger.cs" />
+    <Compile Include="Behavioral Patterns\Command Pattern\AlquilerStock.cs" />
+    <Compile Include="Behavioral Patterns\Command Pattern\Broker.cs" />
+    <Compile Include="Behavioral Patterns\Command Pattern\BuyStock.cs" />
+    <Compile Include="Behavioral Patterns\Command Pattern\CommandPatternRun.cs" />
+    <Compile Include="Behavioral Patterns\Command Pattern\Order .cs" />
+    <Compile Include="Behavioral Patterns\Command Pattern\SellStock.cs" />
+    <Compile Include="Behavioral Patterns\Command Pattern\Stock.cs" />
+    <Compile Include="Behavioral Patterns\Interpreter Pattern\AndExpression.cs" />
+    <Compile Include="Behavioral Patterns\Interpreter Pattern\Expression.cs" />
+    <Compile Include="Behavioral Patterns\Interpreter Pattern\InterpreterPatternRun.cs" />
+    <Compile Include="Behavioral Patterns\Interpreter Pattern\OrExpression.cs" />
+    <Compile Include="Behavioral Patterns\Interpreter Pattern\TerminalExpression.cs" />
     <Compile Include="Creational Patterns\Abstract Factory Pattern\Abstract\AbstractFactory.cs" />
     <Compile Include="Creational Patterns\Abstract Factory Pattern\Factories\FactoryProducer.cs" />
     <Compile Include="Creational Patterns\Abstract Factory Pattern\Concretes\Rectangle.cs" />

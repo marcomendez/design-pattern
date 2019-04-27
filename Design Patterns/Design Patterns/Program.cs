@@ -1,4 +1,7 @@
 ﻿using Design_Patterns.Abstract_Factory_Pattern;
+using Design_Patterns.Behavioral_Patterns.Chain_of_Responsability;
+using Design_Patterns.Behavioral_Patterns.Command_Pattern;
+using Design_Patterns.Behavioral_Patterns.Interpreter_Pattern;
 using Design_Patterns.Creational_Patterns.Builder_Pattern;
 using Design_Patterns.Creational_Patterns.Factory_Method;
 using Design_Patterns.Creational_Patterns.Prototype_pattern;
@@ -44,6 +47,11 @@ namespace Design_Patterns
 
             new ProxyRun().run();
 
+            new ChainPatternRun().run();
+
+            new CommandPatternRun().run();
+
+            new InterpreterPatternRun().run();
             Console.ReadLine();
         }
     }
