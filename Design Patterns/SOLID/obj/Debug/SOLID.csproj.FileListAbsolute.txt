@@ -1,0 +1,7 @@
+E:\Mio\design-pattern\Design Patterns\SOLID\obj\Debug\SOLID.csprojAssemblyReference.cache
+E:\Mio\design-pattern\Design Patterns\SOLID\obj\Debug\SOLID.csproj.CoreCompileInputs.cache
+E:\Mio\design-pattern\Design Patterns\SOLID\bin\Debug\SOLID.exe.config
+E:\Mio\design-pattern\Design Patterns\SOLID\bin\Debug\SOLID.exe
+E:\Mio\design-pattern\Design Patterns\SOLID\bin\Debug\SOLID.pdb
+E:\Mio\design-pattern\Design Patterns\SOLID\obj\Debug\SOLID.exe
+E:\Mio\design-pattern\Design Patterns\SOLID\obj\Debug\SOLID.pdb
